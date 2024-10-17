@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather Now!</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="City">
+            <button id="search" onclick="getWeather()">Search</button>
+        </div>
+        <div class="weather-info" id="weatherInfo">
+            High: -- <br>
+            Low: -- <br>
+            Wind Speed: -- <br>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
